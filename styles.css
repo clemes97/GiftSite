@@ -32,6 +32,10 @@ section {
     transform: translateX(0);
 }
 
+.delay{
+    transition-delay: 400ms;
+}
+
 .logos {
     display: flex;
 }
