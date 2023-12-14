@@ -1,3 +1,4 @@
+
 window.addEventListener("DOMContentLoaded", event => {
     const audio = document.querySelector("audio");
     audio.volume = 0.2;
@@ -17,3 +18,9 @@ const observer = new IntersectionObserver((entries) => {
 
 const hiddenElements = document.querySelectorAll('.hidden');
 hiddenElements.forEach((el) => observer.observe(el));
+
+function play() {
+    var audio = document.getElementById("audio");
+    audio.play();
+    document.getElementById("hidden").style.display = "block";
+  }
