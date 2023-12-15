@@ -1,3 +1,13 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(sansation_light.woff);
+}
+
+div {
+  font-family: myFirstFont;
+}
+
+
 body {
     background-color: #131316;
     color: #ffffff;
@@ -200,3 +210,18 @@ img {
         background-position: 300%;
     }
 }
+
+
+.centertext {
+text-align: center;
+font-size: 50%;
+margin-top: -45px;
+color: #8CA08C;
+}
+
+.centertext2 {
+  text-align: center;
+  font-size: 50%;
+  margin-top: -45px;
+  color: #8CA08C;
+  }
